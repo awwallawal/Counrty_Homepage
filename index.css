@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    width: 720px;
+    height: 343px;
+}
+
+.hero-header{
+    background: url(./images/nig.jpg);
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+.lightblue {
+    background: #457B9D;
+}
+
+.darkblue {
+    background: #1D3557;
+}
+
+.hero-title{
+    padding: 3px 12px 5px 12px;
+    margin-bottom: 16px;
+}
+
+.hero-sub{
+    margin-top: 0;
+    padding: 5px 29px 8px 29px;
+    border-radius: 10px;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.activities-container{
+    width: 720px;
+    height: 343px;
+    background: #F1FAEE;
+    display: flex;
+    justify-content: space-around;
+}
+
+.activities-margin-top{
+    margin: 60px 0;
+}
+
+.activities-inner{
+    text-align: center;
+    padding: 3px 6px;
+}
+
+.img-inner{
+    margin: 20px auto;
+}
+
+.guide-header{
+    width: 400px;
+    height: 294px;
+    margin: 50px 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.guide-img{
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.guide-img-head{
+    margin: 23px 7px 23px 13px;
+}
+
+.guide-body{
+    text-align: center;
+}
+
+.guide-title{
+    margin-bottom: 14px;
+    margin-right:11px;
+}
+
+.guide-sub{
+    margin-bottom: 26px;
+    margin-right: 11px;
+}
+
+.guide-name{
+    margin-right: 11px;
+}
